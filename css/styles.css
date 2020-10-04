@@ -1,0 +1,121 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+ 
+#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+	height:100%;
+}
+
+
+
+/*#main-contain{
+	border:10px 10px 10px 10px;
+	border-color: red;
+}*/
+
+/**carousel**/
+/*.active.item {
+	width: 100%;
+	height:100%;
+}*/
+
+#expl{
+	background-color: #ff4d4d;
+	width: 70%;
+	height:100%;
+	margin: 10px 10px 10px 260px;
+	align-items: center;
+}
+#main-contain{
+	width: 45%;
+	/* border-style: solid;
+  border-width: thick;
+  border-color: red;
+  border-radius: 10px;*/
+
+}
+
+
+
+
+.col-12.col-sm-6.container{
+	padding: 0;
+	
+}
+.vertical .carousel-inner {
+	padding: 0;
+  height: 100%;
+ 
+ 
+}
+
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+   -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.carousel.vertical .next,
+.carousel.vertical .active.right {
+   -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100% 0);
+}
+
+.carousel.vertical .prev,
+.carousel.vertical .active.left {
+-webkit-transform: translate3d(0,-100%, 0);
+      transform: translate3d(0,-100%, 0);
+}
+
+.btn{
+	padding: 0;
+	border:0;
+}
+
+
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+	
+	
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-contain{
+	width: 45%;
+
+	}
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  #main-contain{
+	width: 45%;
+
+	}
+
+ }
