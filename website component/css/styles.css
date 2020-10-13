@@ -45,7 +45,7 @@ border-bottom-left-radius: 5em 5em;
 }
 
 .navbar a:hover {
-  background-color: #000;
+  background-color:linear-gradient(#cc66ff, #9966ff);
 }
 
 
@@ -102,12 +102,14 @@ border-bottom-left-radius: 5em 5em;
 }
 
 .dot {
+  position: absolute;
  background: linear-gradient(#cc66ff, #9966ff);
- height:230px;
-     width:230px;
-     border-radius: 120px;
-  display: inline-block;
-  margin-left: 900px;
+ height:200px;
+  width:200px;
+ border-radius: 120px;
+  margin-left:-90px;
+  margin-top: 150px;
+  opacity: 0.5;
 }
 
 /*card designing*/
