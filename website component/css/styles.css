@@ -108,7 +108,7 @@ border-bottom-left-radius: 5em 5em;
   width:200px;
  border-radius: 120px;
   margin-left:-90px;
-  margin-top: 150px;
+  margin-top: 280px;
   opacity: 0.5;
 }
 
@@ -171,13 +171,7 @@ mix-blend-mode: darken;
   font-size: 1rem;
 }
 
-img{
-  margin:100px;
-  margin-left:440px;
-  height: 15%;
-  width: 15%;
 
-}
 
 /*designing why card*/
 
