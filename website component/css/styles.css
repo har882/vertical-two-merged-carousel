@@ -1,0 +1,267 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*navbar designing*/
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+ 
+#header-nav {
+	background-color: #ffffff;
+	border-radius:0;
+	border: 0;
+	height:100%;
+}
+
+.halfCircleBottom{
+	position: relative; 
+	left: 50%;
+	transform: translateX(-50%);
+	height:45px;
+     width:200px;
+     border-bottom-right-radius: 5em 5em;
+border-bottom-left-radius: 5em 5em; 
+     
+     background:green;
+     box-shadow: -1px -1px 10px -2px rgba(0, 0, 0, 0.5);
+
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+
+
+/*caraousel designing*/
+
+#main-contain{
+	margin-top: 0;
+  border:solid white;
+  border-width: 5px;
+
+/*
+
+	width: 45%;*/
+	/* border-style: solid;
+  border-width: thick;
+  border-color: red;
+  border-radius: 10px;*/
+
+}
+
+.col-12.col-sm-6.container{
+	padding: 0;
+	
+}
+.vertical .carousel-inner {
+	padding: 0;
+  height: 100%;
+ 
+ }
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+   -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.carousel.vertical .next,
+.carousel.vertical .active.right {
+   -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100% 0);
+}
+
+.carousel.vertical .prev,
+.carousel.vertical .active.left {
+-webkit-transform: translate3d(0,-100%, 0);
+      transform: translate3d(0,-100%, 0);
+}
+
+.btn{
+	padding: 0;
+	border:0;
+}
+
+.dot {
+ background: linear-gradient(#cc66ff, #9966ff);
+ height:230px;
+     width:230px;
+     border-radius: 120px;
+  display: inline-block;
+  margin-left: 900px;
+}
+
+/*card designing*/
+.wrimagecard{ 
+  margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.wrimagecard .fa{
+  position: relative;
+    font-size: 70px;
+}
+.wrimagecard-topimage_header{
+padding: 20px;
+}
+a.wrimagecard:hover, .wrimagecard-topimage:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+  text-align: center;
+    padding: 20px 24px;
+    height: 100%;
+    padding-bottom: 0.75rem;
+    position: relative;
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
+
+/*designing about me*/
+.circle{
+  position: absolute;
+background: linear-gradient(#cc66ff, #9966ff);
+mix-blend-mode: darken;
+     margin:180px;
+     margin-left: 600px;
+     height:230px;
+     width:230px;
+     border-radius: 120px;
+     text-align: center;
+
+     
+}
+.circle p{
+  font-size: 1rem;
+}
+
+img{
+  margin:100px;
+  margin-left:440px;
+  height: 15%;
+  width: 15%;
+
+}
+
+/*designing why card*/
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.green p{
+  color: black;
+}
+.magenta img{
+  margin:0 0 0 100px;
+  width: 50%; 
+  height: auto;
+  
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+	
+	
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-contain{
+	width: 45%;
+
+	}
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  #main-contain{
+	width: 45%;}
+
+
+  /*design about me*/
+  /*.circle{
+  position: absolute;
+background: linear-gradient(#cc66ff, #9966ff);
+mix-blend-mode: darken;
+     margin:180px;
+     margin-left: 300px;
+     height:230px;
+     width:230px;
+     border-radius: 120px;
+     text-align: center;
+
+     
+}
+.circle p{
+  font-size: 1rem;
+}
+
+img{
+  margin:100px;
+  margin-left:200px;
+  height: 25%;
+  width: 25%;
+
+}*/
+
+
+ }
